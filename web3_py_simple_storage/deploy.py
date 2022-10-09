@@ -39,7 +39,7 @@ abi = compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["abi"]
 
 # for connecting to ganache
 w3 = Web3(
-    Web3.HTTPProvider("https://rinkeby.infura.io/v3/08b95a4fa0b14f42ab7240c602bac4de")
+    Web3.HTTPProvider("https://rinkeby.infura.io/v3/")
 )
 chain_id = 4
 my_address = "0x200e800d01a0E163944c48996238A27068b22b60"
